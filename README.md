@@ -10,6 +10,8 @@ regularly and a template to display articles
 - Open the folder `\database\firacms.sql`
 - If you are using phpmyadmin, please create a database with the name `firacms` and import the sql file into it.
 - It is not recommended to directly use the command `php spark migrate -all` because some tables have not been added to it. 
+- Open terminal `cd public\template` run `yarn install`
+- directory root run `php spark serve`
 
 ## Change default user to admin after register account
 
