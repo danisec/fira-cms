@@ -1,0 +1,61 @@
+CRITICAL - 2021-08-22 02:08:34 --> Undefined array key "category"
+#0 C:\xampp\htdocs\ykadonline\app\Views\article\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\ykadonline\app\Controllers\Article.php(27): view('/article/index', Array)
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Article->index()
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-22 02:14:57 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#3 C:\xampp\htdocs\ykadonline\app\Controllers\Article.php(27): view('/article/index', Array)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Article->index()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-22 02:56:54 --> Undefined array key "titlepost"
+#0 C:\xampp\htdocs\ykadonline\app\Views\article\index.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\ykadonline\app\Controllers\Article.php(27): view('/article/index', Array)
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Article->index()
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-22 03:08:03 --> Undefined array key "category"
+#0 C:\xampp\htdocs\ykadonline\app\Views\article\index.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\ykadonline\app\Controllers\Article.php(27): view('/article/index', Array)
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Article->index()
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-22 03:08:42 --> Undefined array key "category"
+#0 C:\xampp\htdocs\ykadonline\app\Views\article\index.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\ykadonline\app\Controllers\Article.php(27): view('/article/index', Array)
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Article->index()
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-22 04:41:15 --> Error connecting to the database: Class "SQLite3" not found
+ERROR - 2021-08-22 04:42:56 --> Error connecting to the database: Class "SQLite3" not found

@@ -1,0 +1,80 @@
+CRITICAL - 2021-08-28 07:05:41 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#3 C:\xampp\htdocs\ykadonline\app\Controllers\Post.php(50): view('/article/index', Array)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-28 07:06:42 --> Cannot use object of type App\Models\dashboardModel as array
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#3 C:\xampp\htdocs\ykadonline\app\Controllers\Post.php(50): view('/article/index', Array)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-28 07:06:53 --> Cannot use object of type App\Models\dashboardModel as array
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#3 C:\xampp\htdocs\ykadonline\app\Controllers\Post.php(50): view('/article/index', Array)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-28 07:11:33 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-28 07:13:35 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#3 C:\xampp\htdocs\ykadonline\app\Controllers\Post.php(54): view('/article/index', Array)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-08-28 07:29:15 --> Column 'author' cannot be null
+CRITICAL - 2021-08-28 07:29:15 --> Column 'author' cannot be null
+#0 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ar...')
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ykadonline\app\Controllers\Dashboard.php(110): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->save()
+#10 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-08-28 07:51:20 --> Undefined variable $latest_post
+#0 C:\xampp\htdocs\ykadonline\app\Views\article\index.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 358)
+#1 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\ykadonline\app\Controllers\Post.php(54): view('/article/index', Array)
+#5 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#6 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ykadonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ykadonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

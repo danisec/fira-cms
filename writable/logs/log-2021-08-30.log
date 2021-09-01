@@ -1,0 +1,40 @@
+ERROR - 2021-08-30 19:28:12 --> Table 'firacms.category' doesn't exist
+CRITICAL - 2021-08-30 19:28:12 --> Table 'firacms.category' doesn't exist
+#0 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Fira CMS\app\Controllers\Post.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#6 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Fira CMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-30 19:29:07 --> Error connecting to the database: Class "SQLite3" not found
+ERROR - 2021-08-30 19:38:49 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2021-08-30 19:49:43 --> Undefined variable $value
+#0 C:\xampp\htdocs\Fira CMS\app\Views\article\index.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 292)
+#1 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/article/index', Array, true)
+#4 C:\xampp\htdocs\Fira CMS\app\Controllers\Post.php(55): view('/article/index', Array)
+#5 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Post->index()
+#6 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Fira CMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-30 20:26:30 --> Attempt to read property "user_image" on null
+#0 C:\xampp\htdocs\Fira CMS\app\Views\layout\template.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/list_...', Array, true)
+#5 C:\xampp\htdocs\Fira CMS\app\Controllers\Dashboard.php(238): view('dashboard/list_...', Array)
+#6 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->list_article()
+#7 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Fira CMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Fira CMS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
