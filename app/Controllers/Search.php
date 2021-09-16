@@ -23,7 +23,7 @@ class Search extends BaseController
         $currentPage = $this->request->getVar('page_article') ? $this->request->getVar('page_article') : 1;
 
         $keyword = $this->request->getVar('q');
-        if ($keyword) {
+        if (isset($keyword)) {
             $search = $this->dashboardModel->search($keyword);
             session()->set('qsearch', $keyword);
         } else {

@@ -116,6 +116,29 @@ class Dashboard extends BaseController
         return redirect()->to('/dashboard/list_article');
     }
 
+    public function uploadGambar()
+    {
+        if ($this->request->getFile('file')) {
+            $dataFile = $this->request->getFile('file');
+            $fileName = $dataFile->getRandomName();
+            $dataFile->move("/uploads", $fileName);
+            echo base_url("/uploads/$fileName");
+        }
+    }
+
+    public function deleteGambar()
+    {
+        $src = $this->request->getVar('src');
+
+        //http://localhost/namefile
+        if ($src) {
+            $file_name = str_replace(base_url() . "/", "", $src);
+            if (unlink($file_name)) {
+                echo "Delete File Sucess";
+            }
+        }
+    }
+
     public function delete($id)
     {
         // Search image for $id //

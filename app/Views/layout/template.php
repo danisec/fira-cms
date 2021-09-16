@@ -128,6 +128,59 @@
 
     <!-- Page Specific JS File -->
     <script src="/template/assets/js/page/index.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.summernote').summernote({
+                callbacks: {
+                    onImageUpload: function(files) {
+                        for (let i = 0; i < files.length; i++) {
+                            $.upload(files[i]);
+                        }
+                    },
+                    onMediaDelete: function(target) {
+                        $.delete(target[0].src);
+                    }
+                },
+            });
+
+            $.upload = function(file) {
+                let out = new FormData();
+                out.append('file', file, file.name);
+                $.ajax({
+                    method: 'POST',
+                    url: '<?php echo site_url('create_post/uploadGambar') ?>',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    data: out,
+                    success: function(img) {
+                        $('.summernote').summernote('insertImage', img);
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error(textStatus + " " + errorThrown);
+                    }
+                });
+            };
+
+            $.delete = function(src) {
+                $.ajax({
+                    method: 'POST',
+                    url: '<?php echo site_url('create_post/deleteGambar') ?>',
+                    cache: false,
+                    data: {
+                        src: src
+                    },
+                    success: function(response) {
+                        console.log(response);
+                    }
+
+                });
+            };
+
+        });
+    </script>
+
 </body>
 
 </html>

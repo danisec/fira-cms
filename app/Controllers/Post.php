@@ -65,8 +65,8 @@ class Post extends BaseController
 		$builder = $this->db->table('category');
 		$category = $builder->get()->getResult();
 
-		$keyword = $this->request->getVar('keyword');
-		if ($keyword) {
+		$keyword = $this->request->getVar('q');
+		if (isset($keyword)) {
 			$search = $this->dashboardModel->search($keyword);
 			session()->set('qsearch', $keyword);
 			return redirect()->to('/search');
