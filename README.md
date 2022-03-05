@@ -7,7 +7,7 @@ regularly and a template to display articles
 
 ## How to Installation
 
-- Open the folder `\database\firacms.sql`
+- Open folder `\database\firacms.sql`
 - If you are using phpmyadmin, please create a database with the name `firacms` and import the sql file into it.
 - It is not recommended to directly use the command `php spark migrate -all` because some tables have not been added to it. 
 - Open terminal `cd public\template` run `yarn install`
@@ -15,13 +15,13 @@ regularly and a template to display articles
 
 ## Change default user to admin after register account
 
-- Open the folder `vendor\myth\auth\src\Config\Auth.php`
+- Open folder `vendor\myth\auth\src\Config\Auth.php`
 - find `public $defaultUserGroup = 'user'; ` change to `public $defaultUserGroup = 'admin'; ` 
 
 
 ## Account activation using email after register account
 
-- open the `app\Config` . folder
+- open `app\Config` . folder
 - find `public $fromEmail = 'example@gmail.com'; ` replace `example@gmail.com` to the email to use
 - find `public $fromName = 'codeigniter'; ` replace `codeigniter` to your name or company
 - find `public $SMTPUser = 'example@gmail.com'; ` replace `example@gmail.com` to the email to use
